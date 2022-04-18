@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.13)
+set(LLVM_MOS_PLATFORM osi-c1p)
+find_package(llvm-mos-sdk REQUIRED)
+project(llvm-mos-osi-c1p-minimal)
+add_executable(minimal minimal.c)
