@@ -1,1 +1,1 @@
-add_executable(minimal-cpp minimal.cpp)
+add_c1p_executable(minimal-cpp minimal.cpp)
