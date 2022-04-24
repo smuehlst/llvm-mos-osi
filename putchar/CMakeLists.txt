@@ -1,0 +1,1 @@
+add_c1p_executable(putchar putchar.c)

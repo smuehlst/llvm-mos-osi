@@ -14,3 +14,4 @@ project(llvm-mos-osi-c1p)
 
 add_subdirectory(minimal)
 add_subdirectory(minimal-cpp)
+add_subdirectory(putchar)
