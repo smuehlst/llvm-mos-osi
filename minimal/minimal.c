@@ -12,8 +12,6 @@ main(void)
     char * const video_ram_start = (char *) 0xd000;
 
     memcpy(video_ram_start + 0x224, str, sizeof(str) - 1);
-
-    while (1);
 	
     return 0;
 }

@@ -19,6 +19,4 @@ main(void)
             *vp++ = c;
         }
     }
-
-    while (1);
 }
